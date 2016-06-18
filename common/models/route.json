@@ -1,0 +1,30 @@
+{
+  "name": "Route",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "user_id": {
+      "type": "number",
+      "required": true
+    },
+    "depart_time": {
+      "type": "date",
+      "required": true
+    },
+    "from": {
+      "type": "geopoint",
+      "required": true
+    },
+    "to": {
+      "type": "geopoint",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

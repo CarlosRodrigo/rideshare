@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mongo": {
+    "host": "rideshare123@ds047040.mlab.com",
+    "port": 47040,
+    "url": "mongodb://rideshare:rideshare123@ds047040.mlab.com:47040/rideshare",
+    "database": "rideshare",
+    "password": "rideshare123",
+    "name": "mongo",
+    "user": "rideshare",
+    "connector": "mongodb"
+  }
+}
